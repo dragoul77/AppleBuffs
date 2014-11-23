@@ -1,7 +1,5 @@
 package ch.dragoul.minecraft.mod.buffs;
 
-import sun.applet.AppletClassLoader;
-import net.minecraft.block.material.Material;
 import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
@@ -19,14 +17,14 @@ public class RecipeManager {
 		if (AppleBuffsConfig.useDiamondApple()) 
 		{
 			GameRegistry.addShapedRecipe(
-					new ItemStack(ItemManager.diamondApple, 1, 0), 
+					new ItemStack(ItemManager.diamondApple, 1), 
 					new Object[]{
 						" D ", 
 						"DAD", 
 						" D ", 
 						'D', Items.diamond, 'A', Items.apple});
 			GameRegistry.addShapedRecipe(
-					new ItemStack(ItemManager.diamondApple, 1, 0), 
+					new ItemStack(ItemManager.diamondApple, 1), 
 					new Object[]{
 						"D D", 
 						" A ", 
@@ -38,14 +36,14 @@ public class RecipeManager {
 		if (AppleBuffsConfig.useGodDiamondApple()) 
 		{
 			GameRegistry.addShapedRecipe(
-					new ItemStack(ItemManager.godDiamondApple, 1, 1), 
+					new ItemStack(ItemManager.godDiamondApple, 1), 
 					new Object[]{
 						" D ", 
 						"DAD", 
 						" D ", 
 						'D', Blocks.diamond_block, 'A', Items.apple});
 			GameRegistry.addShapedRecipe(
-					new ItemStack(ItemManager.godDiamondApple, 1, 1), 
+					new ItemStack(ItemManager.godDiamondApple, 1), 
 					new Object[]{
 						"D D", 
 						" A ", 
@@ -57,14 +55,14 @@ public class RecipeManager {
 		if (AppleBuffsConfig.useEmeraldApple()) 
 		{
 			GameRegistry.addShapedRecipe(
-					new ItemStack(ItemManager.emeraldApple, 1, 0), 
+					new ItemStack(ItemManager.emeraldApple, 1), 
 					new Object[]{
 						" E ", 
 						"EAE", 
 						" E ", 
 						'E', Items.emerald, 'A', Items.apple});
 			GameRegistry.addShapedRecipe(
-					new ItemStack(ItemManager.emeraldApple, 1, 0), 
+					new ItemStack(ItemManager.emeraldApple, 1), 
 					new Object[]{
 						"E E", 
 						" A ", 
@@ -76,14 +74,14 @@ public class RecipeManager {
 		if (AppleBuffsConfig.useGodEmeraldApple()) 
 		{
 			GameRegistry.addShapedRecipe(
-					new ItemStack(ItemManager.godEmeraldApple, 1, 1), 
+					new ItemStack(ItemManager.godEmeraldApple, 1), 
 					new Object[]{
 						" E ", 
 						"EAE", 
 						" E ", 
 						'E', Blocks.emerald_block, 'A', Items.apple});
 			GameRegistry.addShapedRecipe(
-					new ItemStack(ItemManager.godEmeraldApple, 1, 1), 
+					new ItemStack(ItemManager.godEmeraldApple, 1), 
 					new Object[]{
 						"E E", 
 						" A ", 
@@ -95,14 +93,14 @@ public class RecipeManager {
 		if (AppleBuffsConfig.useEmerondApple()) 
 		{
 			GameRegistry.addShapedRecipe(
-					new ItemStack(ItemManager.emerondApple, 1, 0), 
+					new ItemStack(ItemManager.emerondApple, 1), 
 					new Object[]{
 						"DED", 
 						"EAE", 
 						"DED", 
 						'E', Items.emerald, 'D', Items.diamond, 'A', Items.apple});
 			GameRegistry.addShapedRecipe(
-					new ItemStack(ItemManager.emerondApple, 1, 0), 
+					new ItemStack(ItemManager.emerondApple, 1), 
 					new Object[]{
 						"EDE", 
 						"DAD", 
@@ -114,14 +112,14 @@ public class RecipeManager {
 		if (AppleBuffsConfig.useGodEmerondApple()) 
 		{
 			GameRegistry.addShapedRecipe(
-					new ItemStack(ItemManager.godEmerondApple, 1, 1), 
+					new ItemStack(ItemManager.godEmerondApple, 1), 
 					new Object[]{
 						"DED", 
 						"EAE", 
 						"DED", 
 						'E', Blocks.emerald_block, 'D', Blocks.diamond_block, 'A', Items.apple});
 			GameRegistry.addShapedRecipe(
-					new ItemStack(ItemManager.godEmerondApple, 1, 1), 
+					new ItemStack(ItemManager.godEmerondApple, 1), 
 					new Object[]{
 						"EDE", 
 						"DAD", 

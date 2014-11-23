@@ -2,13 +2,13 @@ package ch.dragoul.minecraft.mod.buffs.item;
 
 import java.util.List;
 
-import ch.dragoul.minecraft.mod.buffs.AppleBuffsConstants;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemFood;
 import net.minecraft.item.ItemStack;
 import net.minecraft.potion.Potion;
 import net.minecraft.potion.PotionEffect;
 import net.minecraft.world.World;
+import ch.dragoul.minecraft.mod.buffs.AppleBuffsConstants;
 
 public class BaseBuffApple extends ItemFood {
 	
@@ -44,7 +44,7 @@ public class BaseBuffApple extends ItemFood {
         if (potionEffect != null)
             duration = potionEffect.getDuration();
         // add the offset if it is not yet added
-        duration = duration == 0 ? durationOffset : 0;
+        duration = duration == 0 ? durationOffset : duration;
         duration = duration + 60 * 20 * _type.getMultiplier();
         duration = duration > AppleBuffsConstants.MAX_BUFF_TIME ? AppleBuffsConstants.MAX_BUFF_TIME : duration;
         

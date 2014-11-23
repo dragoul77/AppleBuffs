@@ -1,16 +1,15 @@
 package ch.dragoul.minecraft.mod.buffs.item;
 
 import ch.dragoul.minecraft.mod.buffs.AppleBuffsConfig;
-import ch.dragoul.minecraft.mod.buffs.AppleBuffsConstants;
 
 public enum AppleType {
 	
 	DIAMOND(AppleBuffsConfig.getDiamondAppleMultiplier(), 4, 2.0F, ItemCharacteristic.BASIC),
-	DIAMOND_GOD(AppleBuffsConfig.getGodDiamondAppleMultiplier(), 20, 4.0F, ItemCharacteristic.GOD),
-	EMERALD(AppleBuffsConfig.getEmeraldAppleMultiplier(), 8, 3.0F, ItemCharacteristic.BASIC),
-	EMERALD_GOD(AppleBuffsConfig.getGodEmeraldAppleMultiplier(), 20, 4.0F, ItemCharacteristic.GOD),
-	EMEROND(AppleBuffsConfig.getEmerondAppleMultiplier(), 12, 3.0F, ItemCharacteristic.BASIC),
-	EMEROND_GOD(AppleBuffsConfig.getGodEmerondAppleMultiplier(), 20, 5.0F, ItemCharacteristic.GOD);
+	DIAMOND_GOD(AppleBuffsConfig.getGodDiamondAppleMultiplier(), 4, 2.0F, ItemCharacteristic.GOD),
+	EMERALD(AppleBuffsConfig.getEmeraldAppleMultiplier(), 4, 2.0F, ItemCharacteristic.BASIC),
+	EMERALD_GOD(AppleBuffsConfig.getGodEmeraldAppleMultiplier(), 4, 2.0F, ItemCharacteristic.GOD),
+	EMEROND(AppleBuffsConfig.getEmerondAppleMultiplier(), 4, 2.0F, ItemCharacteristic.BASIC),
+	EMEROND_GOD(AppleBuffsConfig.getGodEmerondAppleMultiplier(), 4, 2.0F, ItemCharacteristic.GOD);
 	
 	private int _multiplier;
 	private int _healAmount;

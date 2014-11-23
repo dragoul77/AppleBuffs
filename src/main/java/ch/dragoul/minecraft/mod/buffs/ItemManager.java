@@ -1,9 +1,12 @@
 package ch.dragoul.minecraft.mod.buffs;
 
-import net.minecraft.creativetab.CreativeTabs;
-import net.minecraft.item.Item;
+import ch.dragoul.minecraft.mod.buffs.item.DiamondApple;
+import ch.dragoul.minecraft.mod.buffs.item.EmeraldApple;
+import ch.dragoul.minecraft.mod.buffs.item.EmerondApple;
+import ch.dragoul.minecraft.mod.buffs.item.GodDiamondApple;
+import ch.dragoul.minecraft.mod.buffs.item.GodEmeraldApple;
+import ch.dragoul.minecraft.mod.buffs.item.GodEmerondApple;
 import cpw.mods.fml.common.registry.GameRegistry;
-import ch.dragoul.minecraft.mod.buffs.item.*;
 
 public class ItemManager {
 	
