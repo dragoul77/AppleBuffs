@@ -7,7 +7,7 @@ The mod is inspired by the tinkers' construct jeweled apple (tinkers is a great 
 # Compile from Source
 * Setup: Run [gradle] in the repository root:   
 	`gradlew[.bat] [setupDevWorkspace|setupDecompWorkspace] [eclipse|idea]`
-* Build: Run [gradle] in the repository root: `gradlew[.bat] build'
+* Build: Run [gradle] in the repository root: `gradlew[.bat] build`
 
 # Licence
 
