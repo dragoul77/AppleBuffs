@@ -1,7 +1,8 @@
 AppleBuffs
 ==========
 
-Minecraft Forge Mod, which provides special apples
+Minecraft Forge Mod, which provides special apples.
+The mod is inspired by the tinkers' construct jeweled apple (tinkers is a great mod, you can find it  [[here|https://github.com/SlimeKnights/TinkersConstruct]]).
 
 # Compile from Source
 * Setup: Run [gradle] in the repository root:   
@@ -12,5 +13,5 @@ Minecraft Forge Mod, which provides special apples
 
 Textures and binaries are licensed under Creative Commons 3.
 
-Any modpack which uses AppleBuffs takes full responsibility for user support queries.
+Any modpack which uses _AppleBuffs_ takes full responsibility for user support queries.
 
